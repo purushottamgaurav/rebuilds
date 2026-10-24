@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="HotelManagement.Api/HotelManagement.Api.csproj" />
+  <Project Path="HotelManagement.App/HotelManagement.App.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HotelManagement.Web/HotelManagement.Web.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
